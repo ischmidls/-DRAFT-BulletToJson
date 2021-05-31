@@ -1,9 +1,12 @@
 # formatting_data
 
 
-f.py
+## f.py
 
-formatting_txt.py
+## formatting_txt.py
 
-taxonomy_parser.py
+## taxonomy_parser.py
 
+## formatting.txt
+- CSV
+- Discipline, Branch, Subject, Field, Focus, Niche

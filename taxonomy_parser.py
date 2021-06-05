@@ -1,17 +1,30 @@
+# Author: Izak Schmidlkofer
+# Date: 6/5/21
+# Description: Defines class such that asterisk bullet list txt file convert to node-type, element csv
+
 """
 taxonomy_parser.py
-___________________
+    neeed to rename to "bullet-to-csv-class.py"
 
 """
 
 
 class Format:
+    """
+    """
+    
     def __init__(self, ll):
+        """
+        """
+    
         self.temp = ''  # INITIALIZE NEW LINE
         self.num = ''  # INITIALIZE COUNTER
         self.ll = ll
 
     def sentinel(self):
+        """
+        """
+    
         s = ','  # ^^ SENTINEL
         i = 0  # ^^ INDEX
         while not s:  # WHILE SENTINEL NOT COMMA
@@ -30,6 +43,7 @@ class Format:
         >>> del_com(ls)
         ["d,og", "d,og", ",dog"]
         """
+        
         for ch in self.ll:
             if ch == ",":
                 self.num += ch  # COUNT COMMAS
@@ -42,7 +56,13 @@ class Format:
 
 
 class Taxonomy:
+    """
+    """
+    
     def __init__(self, level, input_file):
+        """
+        """
+        
         self.taxonomy = {}
         self.nodes = {}
         self.root = ''
@@ -53,6 +73,7 @@ class Taxonomy:
         """
         Input = name of file with pairs = (level)
         """
+        
         f = open(self.input_file, encoding='utf-8-sig')
         ll = []
         for e in f:
@@ -66,6 +87,7 @@ class Taxonomy:
         """
         Input = level list = (top, ..., bottom)
         """
+        
         self.read_txt()
 
         n = self.nodes
@@ -94,6 +116,9 @@ class Taxonomy:
         return t
 
     def write_dict(self):
+        """
+        """
+        
         self.sort_dict()
 
         level = self.level

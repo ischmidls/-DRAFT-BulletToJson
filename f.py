@@ -1,5 +1,11 @@
+# Author: Izak Schmidlkofer
+# Date: 6/5/21
+# Description: Asterisk bullet list txt file convert to node-type, element csv
+#               Runs "formatting.txt through taxonomy parser"
+
 """
 formatting_txt.py
+    need to rename to "bullet-to-csv-main.py"
 
 INPUT: DELIMITED TXT FILE OF BULLET POINTS
 (ranges of asterisks separate each field)

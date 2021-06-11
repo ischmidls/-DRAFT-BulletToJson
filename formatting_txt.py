@@ -51,7 +51,7 @@ txt_dict =
                         }}}}},
 """
 
-INPUT_FILE = open('formatting.txt')  # file with delimited bullet points
+INPUT_FILE = open('nodeElement.csv')  # file with delimited bullet points
 # OUTPUT_FILE = open('output.txt', 'a')  # create empty file
 NUM_AST = 5  # number of asterisks
 

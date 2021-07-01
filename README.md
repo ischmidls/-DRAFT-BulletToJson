@@ -4,14 +4,14 @@ Given bullet point hierarchy return taxonomy json.
 2. 
 
 
-## f.py
-rename to "bullet-to-csv-main.py"
+## bullet-to-csv-main.py
+
 
 ## formatting_txt.py
 rough draft (irrelevant to program?)
 
-## taxonomy_parser.py
-rename to "bullet-to-csv-class.py"
+## bullet-to-csv-class.py
+
 
 ## formatting.txt
 rename to "bullet.txt"
@@ -30,3 +30,6 @@ rename to "bullet.txt"
 ## node-element.csv
 - CSV of node-type, element pairs
 - node-types: Discipline, Branch, Subject, Field, Focus, Niche
+
+## branch.csv
+- each line lists an element and its parents to the root.

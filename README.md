@@ -1,3 +1,4 @@
+Bullet list source: https://en.wikipedia.org/wiki/Outline_of_academic_disciplines#References
 # bullet to json
 Given bullet point hierarchy return taxonomy json.
 1. bullet text to node-type, element csv

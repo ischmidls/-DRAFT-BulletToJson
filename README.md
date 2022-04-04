@@ -34,3 +34,5 @@ rename to "bullet.txt"
 
 ## branch.csv
 - each line lists an element and its parents to the root.
+
+The bulleted list from http://ontology.buffalo.edu/philosophome/index_files/philosophome.html is good inspiration
